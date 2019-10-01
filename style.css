@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border-box : sets the border to the box, not calculate it from the content*/
+    box-sizing: border-box;
+}
+
 body{
     font-family: Helvetica Neue, Arial;
     font-size: 15px;
@@ -10,10 +17,12 @@ h1,h2 {
 
 h1{
     font-size:40px;
+    margin-bottom: 20px;
 }
 
 h2{
     font-size:22px;
+    margin-bottom: 10px;
 }
 
 .author-text {
@@ -25,4 +34,5 @@ h2{
     text-align: justify;
     font-size: 16px;
     color: #25262e;
+    margin-bottom: 20px;
 }
