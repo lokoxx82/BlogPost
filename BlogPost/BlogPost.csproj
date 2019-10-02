@@ -4,4 +4,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="MyFoodWeb\Resources\js\" />
+    <Folder Include="MyFoodWeb\Resources\img\" />
+    <Folder Include="MyFoodWeb\Resources\data\" />
+    <Folder Include="MyFoodWeb\Resources\css\" />
+    <Folder Include="MyFoodWeb\Vendors\fonts\" />
+    <Folder Include="MyFoodWeb\Vendors\css\" />
+    <Folder Include="MyFoodWeb\Vendors\ja\" />
+  </ItemGroup>
+
 </Project>
